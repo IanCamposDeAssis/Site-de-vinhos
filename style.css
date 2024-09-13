@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #181818;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div{
+    text-align: center;
+}
+
+.menu-da-direita {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.md-lista {
+    text-decoration: none;
+    align-items: right;
+    padding: 20px;
+    color: #DDD;
+}
+
+.md-lista:hover {
+    color: #FFF
+}
+
+.bem-vindo {
+    height: 100vh; 
+    width: 100%;
+    background-image: url("img/01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 25px;
+    height: 600px;
+    width: 800px;
+    border-radius: 25px;
+}
+.borda{
+    padding: 10px;
+    border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+}
+.cards{   
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 240px;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
