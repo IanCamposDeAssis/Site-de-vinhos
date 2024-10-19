@@ -22,19 +22,20 @@ main {
     justify-content: flex;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .menu nav ul {
-    display: flex;
     /* Posição da ancoragem */
+    display: flex;
     align-items: center;
     list-style: none;
     margin-right: 20px;
 }
 
 .menu nav ul li {
-    padding: 20px;
     /* Espaçamento da lista */
+    padding: 20px;
 }
 
 .menu nav ul li a {
@@ -48,11 +49,24 @@ main {
     /* Fontes, cores e estilos da ancoragem do menu:hover */
 }
 
-.user-photo {
-    background-color: #FFF;
+.user-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    top: 0;
 }
 
-
+.user-photo {
+    border-radius: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    width: 96px;
+    height: 96px;
+    position: fixed;
+    z-index: 2;
+}
 
 
 .fundo {
