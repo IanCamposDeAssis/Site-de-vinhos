@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     /* Zerando margin e bordas */
+}
+
+body {
+    z-index: 0;
 }
 
 main {
@@ -54,7 +57,8 @@ main {
     justify-content: flex-end;
     align-items: center;
     height: 10vh;
-    top: 0;
+    z-index: 2;
+    margin-right: 200px;
 }
 
 .user-photo {
@@ -62,12 +66,18 @@ main {
     align-items: center;
     text-align: center;
     background-color: #FFF;
-    width: 96px;
-    height: 96px;
+    width: 76px;
+    height: 76px;
     position: fixed;
     z-index: 2;
 }
 
+.user-options {
+    position: fixed;
+    right: 50px;
+    z-index: 3;
+    color:#FFF;
+}
 
 .fundo {
     background-image: url(../assets/vinicula-principal.webp);
