@@ -79,6 +79,34 @@ main {
     color:#FFF;
 }
 
+.menuX li{
+	position: relative;
+	float:left;
+	border-right: 1px solid #c0c0c0;
+}
+.menuX li a{color:#c0c0c0;text-decoration:none;padding:5px 10px; display: block;}
+.menuX li a:hover{
+	background:#333;
+	color:#fff;
+	-moz-box-shadow: 0 3px 10px 0 blue;
+	-webkit-box-shadow: 0 3px 10px 0 blue;
+	text-shadow:0px 0px 5px blue;
+}
+.menuX li ul{
+	position:absolute;
+	top:25px;
+	left:0;
+	background-color:black;
+	display: none;
+}
+.menuX li:hover ul, .menuX li.over ul{display:block;}
+.menuX li ul li{
+	border:1px solid #c0c0c0;
+	display:block;
+	width:150px;
+}
+
+
 .fundo {
     background-image: url(../assets/vinicula-principal.webp);
     background-repeat: no-repeat;
