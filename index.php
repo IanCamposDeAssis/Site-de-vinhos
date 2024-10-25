@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/avatar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="suspenso.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
         rel="stylesheet">
@@ -33,11 +34,13 @@
             </div>
             <!-- opções do usuário -->
             <div class="user-options">
-                <ul>
-                    <li>Mais opções</li>
+               
+                <ul class="menuX">
+                    <li><a href="#">Mais opções</a>
+                    
                     <ul>
-                        <li>Logar / Minha conta</li>
-                        <li>Sair</li>
+                        <li><a href="#">Logar / Minha conta</a></li>
+                        <li><a href="#">Sair</a></li>
                     </ul>
                 </ul>
             </div>
