@@ -34,11 +34,11 @@
             </div>
             <!-- opções do usuário -->
             <div class="user-options">
-                <ul class="menuX">
-                    <li>Mais opções</li>
+                <ul class="user-menu">
+                    <li><a href="#">Mais opções</a>
                     <ul>
-                        <li>Logar / Minha conta</li>
-                        <li>Sair</li>
+                        <li><a href="#">Logar / Minha conta</a></li>
+                        <li><a href="#">Sair</a></li>
                     </ul>
                 </ul>
             </div>
