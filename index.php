@@ -16,7 +16,7 @@
     <title>Vinhos.net</title>
 </head>
 
-<body>
+<body class="roboto-regular">
     <header class="menu" id="inicio">
         <!-- menu de navegação -->
         <nav>
@@ -36,10 +36,10 @@
             <div class="user-options">
                 <ul class="user-menu">
                     <li><a href="#">Mais opções</a>
-                    <ul>
-                        <li><a href="#">Logar / Minha conta</a></li>
-                        <li><a href="#">Sair</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="#">Logar / Minha conta</a></li>
+                            <li><a href="#">Sair</a></li>
+                        </ul>
                 </ul>
             </div>
         </div>
@@ -95,26 +95,7 @@
         </section>
 
         <section class="produtos-gerais">
-            <h2>Nossos Produtos</h2>
-            <div class="produtos-lista">
-                <div class="produto-item">
-                    <img src="assets/produto1.png" alt="Produto 1">
-                    <h3>Vinho Branco</h3>
-                    <p>Vinho branco refrescante, ideal para dias quentes.</p>
-                    <button>Comprar Agora</button>
-                </div>
-                <div class="produto-item">
-                    <img src="assets/produto2.png" alt="Produto 2">
-                    <h3>Vinho Tinto</h3>
-                    <p>Vinho tinto encorpado, perfeito para harmonizar com carnes.</p>
-                    <button>Comprar Agora</button>
-                </div>
-                <div class="produto-item">
-                    <img src="assets/produto3.png" alt="Produto 3">
-                    <h3>Vinho Rosé</h3>
-                    <p>Vinho rosé suave, ótimo para qualquer ocasião.</p>
-                    <button>Comprar Agora</button>
-                </div>
+            alguma coisa
             </div>
         </section>
     </main>
