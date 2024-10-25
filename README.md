@@ -1,2 +1,2 @@
 # Site-de-vinhos
-Desenvolvendo um site de vinhos com apenas html e css
+Desenvolvendo um site de vinhos com html, css, php e javascript
