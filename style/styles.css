@@ -23,7 +23,7 @@ main {
 .menu nav {
     width: 100%;
     height: 10vh;
-    background-color: #181818;
+    background-color: #4B1B2F;
     /* Faixa do menu */
     display: flex;
     justify-content: flex;
@@ -109,7 +109,8 @@ main {
 .scroll {
     overflow: hidden;
     width: 100%; /* Define a largura do container */
-    background-color: aqua;
+    background-color: #2F4F4F;
+    padding: 1px;
 }
 
 .anuncios {
@@ -120,8 +121,9 @@ main {
 }
 
 .anuncio {
-    background-color: black;
+    background-color: #DAA520;
     color: white;
+    border: #D3D3D3 solid 2px;
     padding: 10px 20px;
     border-radius: 5px;
     white-space: nowrap; /* Garante que o texto não quebre */
@@ -150,7 +152,7 @@ main {
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: #9a9a9a;
+    background-color: #D3D3D3;
     width: 1000px;
     margin: 0 auto; /* Centraliza o grid horizontalmente */
     padding: 40px;
@@ -191,7 +193,7 @@ main {
 }
 
 .rodape {
-    background-color: #181818;
+    background-color: #350017;
     width: 100%;
 }
 
