@@ -154,13 +154,44 @@
         </section>
     </main>
 
-    <footer class="rodape" id="contato">
-        <h2>Entre em Contato</h2>
-        <div class="contato-info">
-            <p>Email: contato@vinhos.net</p>
-            <p>Telefone: (11) 1234-5678</p>
-            <p>Endereço: Rua dos Vinhos, 123, São Paulo, SP</p>
+<footer>
+<div>
+           
+           
+<h3>Contatos</h3>
+           
+           
+<a href="mailto:contato@exemplo.com">Email: contato@exemplo.com</a>
+            <a href="tel:+551112345678">Telefone: (11) 1234-5678</a>
         </div>
-    </footer>
+        <div>
+           
+       
+<h3>Links Úteis</h3>
+       
+<a href="#sobre">Sobre Nós</a>
+            <a href="#servicos">Serviços</a>
+           
+     
+<a href="#faq">FAQ</a>
+        </div>
+       
+     
+<div>
+           
+   
+<h3>Contate-nos</h3>
+           
+     
+<a href="#formulario">Formulário de Contato</a>
+           
+         
+<a href="#suporte">Suporte</a>
+           
+   
+<a href="#feedback">Feedback</a>
+        </div>
+   
+</footer>
 </body>
 </html>
