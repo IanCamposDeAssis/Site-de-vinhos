@@ -223,4 +223,7 @@ main {
         grid-template-columns: 1fr;
         /* Altera para uma coluna em telas menores */
     }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
 }
