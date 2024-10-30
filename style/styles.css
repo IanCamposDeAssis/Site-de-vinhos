@@ -227,6 +227,32 @@ ul {
     width: 100%;
 }
 
+footer {
+            background-color:#490021 ;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer div {
+            text-align: center;
+        }
+        footer h3 {
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: #61dafb;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
 /* Responsividade para telas pequenas */
 @media (max-width: 768px) {
     .cards {
