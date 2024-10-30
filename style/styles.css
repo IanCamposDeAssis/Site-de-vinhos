@@ -106,47 +106,34 @@ main {
 	width:150px;
 }
 
-.scroll {
-    overflow: hidden;
-    width: 100%; /* Define a largura do container */
-    background-color: #2F4F4F;
-    padding: 1px;
-}
+.conteudo {
+    padding-top: 0px;
 
-.anuncios {
-    display: flex;
-    gap: 20px; /* Espaçamento entre os itens */
-    animation: scrollContinuo 60s linear infinite; /* Animação contínua */
-    list-style: none;
-}
-
-.anuncio {
-    background-color: #DAA520;
-    color: white;
-    border: #D3D3D3 solid 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    white-space: nowrap; /* Garante que o texto não quebre */
-}
-
-@keyframes scrollContinuo {
-    0% {
-        transform: translateX(100%); /* Começa fora da tela à direita */
-    }
-    100% {
-        transform: translateX(-100%); /* Termina fora da tela à esquerda */
-    }
 }
 
 .fundo {
-    background-image: url(../assets/vinicula-principal.webp);
+    background-image: url(../assets/background/Alyan.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 
 .destaque {
-    padding: 15vh;
+    padding: 0;
+}
+
+.carousel {
+    width: 30%;
+    margin: 0 auto; /* Centraliza o carrossel horizontalmente */
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    display: block;
 }
 
 .cards {
@@ -191,6 +178,39 @@ main {
 .descricao-card {
     text-align: center;
 }
+
+/* cards da section produtos gerais*/
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #D3D3D3; /* Fundo cinza claro */
+    padding: 40px;
+    border-radius: 20px;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-item {
+    border: black solid 4px;
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 .rodape {
     background-color: #350017;
