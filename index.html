@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define que a página deve se adaptar ao tamanho da tela -->
+    <link rel="stylesheet" href="playfair.css"> <!-- Importa o arquivo CSS para estilizar fontes Playfair -->
+    <link rel="stylesheet" href="style/styles.css"> <!-- Importa o CSS principal de estilo da página -->
+    <link rel="stylesheet" href="style/avatar.css"> <!-- Importa o CSS para estilizar o avatar do usuário -->
+    <link rel="stylesheet" href="style/roboto.css"> <!-- Importa o CSS para estilizar fontes Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Otimiza a conexão para carregar fontes do Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <!-- Importa a fonte Roboto diretamente do Google Fonts -->
+    <title>Vinhos.net</title> <!-- Define o título da página exibido na aba do navegador -->
+</head>
+<body class="roboto-regular"> <!-- Início do corpo da página, aplicando a classe "roboto-regular" para estilização com a fonte Roboto -->
+    <header class="menu" id="inicio"> <!-- Define o cabeçalho da página com a classe "menu" e um id "inicio" para âncora -->
+        <nav>
+            <ul> <!-- Lista não ordenada para os links de navegação do cabeçalho -->
+                <li><a href="#inicio">Início</a></li> <!-- Link âncora para a seção de início da página -->
+                <li><a href="#produtos">Produtos</a></li> <!-- Link âncora para a seção de produtos da página -->
+                <li><a href="#contato">Contato</a></li> <!-- Link âncora para a seção de contato da página -->
+            </ul>
+        </nav>
+        <div class="user-area"> <!-- Div que agrupa a área do usuário, incluindo foto e menu de opções -->
+            <div class="user-photo">
+                <img src="assets/users/unknownuser.png" alt="Foto de usuário" id="user"> <!-- Imagem do usuário com id "user" e uma descrição alternativa -->
+            </div>
+            <div class="user-options"> <!-- Div para o menu de opções do usuário -->
+                <ul class="user-menu">
+                    <li><a href="#">Mais opções</a>
+                        <ul> <!-- Submenu de opções do usuário, com links para login e saída -->
+                            <li><a href="#" id="log-sin">Logar / Minha conta</a></li> <!-- Link para a página de login ou conta do usuário -->
+                            <li><a href="#" id="sair">Sair</a></li> <!-- Link para sair da conta do usuário -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="conteudo" id="produtos"> <!-- Elemento principal da página, com classe "conteudo" e id "produtos" para âncora -->
+        <div class="fundo"> <!-- Div para fundo estilizado da seção de destaque dos produtos -->
+            <section class="destaque" id="destaque"> <!-- Seção de destaque dos produtos, com id "destaque" para âncora -->
+                <div class="cards" id="cards"> <!-- Contêiner de cards de produtos em destaque, com id "cards" -->
+                    <div class="item"> <!-- Card individual de um produto -->
+                        <div class="imagem-card">
+                            <img src="assets/tinto/Destaque-tinto.png" alt="Tinto"> <!-- Imagem do produto em destaque com descrição alternativa "Tinto" -->
+                        </div>
+                        <div class="descricao-card">
+                            <h2>Preto</h2> <!-- Título do card do produto, descrevendo o nome do produto -->
+                        </div>
+                    </div>
+                    <div class="item"> <!-- Card individual de outro produto em destaque -->
+                        <div class="imagem-card">
+                            <img src="assets/rose/Destaque-rose.png" alt="Rose"> <!-- Imagem do produto com descrição alternativa "Rose" -->
+                        </div>
+                        <div class="descricao-card">
+                            <h2>Vermelho</h2> <!-- Título do card do produto -->
+                        </div>
+                    </div>
+                    <div class="item"> <!-- Card individual para mais um produto em destaque -->
+                        <div class="imagem-card">
+                            <img src="assets/branco/Destaque-branco.png" alt="Branco"> <!-- Imagem do produto com descrição alternativa "Branco" -->
+                        </div>
+                        <div class="descricao-card">
+                            <h2>Azul</h2> <!-- Título do card do produto -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="produtos-gerais"> <!-- Seção contendo produtos gerais organizados em categorias -->
+            <div class="card-container" id="tinto"> <!-- Contêiner para produtos da categoria "Tinto", com id "tinto" -->
+                <div class="card-item"> <!-- Card de produto individual na categoria "Tinto" -->
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Tinto"> <!-- Imagem do produto com descrição alternativa "Preto" -->
+                    </div>
+                    <h2 class="card-title">Vinho Tinto</h2> <!-- Título do card de produto -->
+                </div>
+                <div class="card-item"> <!-- Outro card de produto na mesma categoria -->
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Tinto"> <!-- Imagem do produto com descrição alternativa "Preto" -->
+                    </div>
+                    <h2 class="card-title">Vinho Tinto</h2><!-- Título do card de produto -->
+                </div>
+                <div class="card-item"> <!-- Outro card de produto na mesma categoria -->
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Tinto"> <!-- Imagem do produto com descrição alternativa "Preto" -->
+                    </div>
+                    <h2 class="card-title">Vinho Tinto</h2><!-- Título do card de produto -->
+                </div>
+                <div class="card-item"> <!-- Outro card de produto na mesma categoria -->
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Tinto">
+                    </div>
+                    <h2 class="card-title">Vinho Tinto</h2><!-- Título do card de produto -->
+                </div>
+            </div>
+
+            <div class="card-container" id="Rose">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Rose">
+                    </div>
+                    <h2 class="card-title">Vinho Rose</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Rose">
+                    </div>
+                    <h2 class="card-title">Vinho Rose</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Rose">
+                    </div>
+                    <h2 class="card-title">Vinho Rose</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Rose">
+                    </div>
+                    <h2 class="card-title">Vinho Rose</h2>
+                </div>
+            </div>
+
+            <div class="card-container" id="Vinho Branco">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Branco">
+                    </div>
+                    <h2 class="card-title">Vinho Branco</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Branco">
+                    </div>
+                    <h2 class="card-title">Vinho Branco</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Branco">
+                    </div>
+                    <h2 class="card-title">Vinho Branco</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vinho Branco">
+                    </div>
+                    <h2 class="card-title">Vinho Branco</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape" id="contato"> <!-- Rodapé da página, com a classe "rodape" e id "contato" para âncora -->
+        <div> <!-- Bloco de informações de contato -->
+            <h3>Contatos</h3> <!-- Título da seção de contatos -->
+            <a href="mailto:contato@vinhos.net">Email: contato@vinhos.net</a> <!-- Link para enviar email para o contato -->
+            <a href="tel:+553112345678">Telefone: (31) 1234-5678</a> <!-- Link para iniciar uma ligação para o número de contato -->
+        </div>
+        <div> <!-- Bloco de links úteis -->
+            <h3>Links Úteis</h3> <!-- Título da seção de links úteis -->
+            <a href="#sobre">Sobre Nós</a> <!-- Link âncora para a seção "Sobre Nós" -->
+            <a href="#servicos">Serviços</a> <!-- Link âncora para a seção "Serviços" -->
+            <a href="#faq">FAQ</a> <!-- Link âncora para a seção "FAQ" -->
+        </div>
+        <div> <!-- Bloco de links de contato e suporte -->
+            <h3>Contate-nos</h3> <!-- Título da seção de suporte -->
+            <a href="#formulario">Formulário de Contato</a> <!-- Link âncora para o formulário de contato -->
+            <a href="#suporte">Suporte</a> <!-- Link âncora para a seção de suporte -->
+            <a href="#feedback">Feedback</a> <!-- Link âncora para a seção de feedback -->
+        </div>
+    </footer>
+</body>
+
+</html>

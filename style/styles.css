@@ -1,30 +1,33 @@
-* {
+/* Define margin e padding zero para todos os elementos, garantindo que 
+   não existam espaçamentos indesejados por padrão */
+   * {
     margin: 0;
     padding: 0;
-    /* Zerando margin e bordas */
 }
 
+/* Suaviza a rolagem de página */
 html {
     scroll-behavior: smooth;
 }
 
+/* Define o z-index da tag <body>, caso necessário para camadas */
 body {
     z-index: 0;
 }
 
+/* Estilização principal da tag <main>, centralizando conteúdo e limitando a largura */
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* Alinhamento do conteúdo central ao centro */
 }
 
+/* Define um menu fixo na parte superior com cor de fundo e alinhamento de conteúdo */
 .menu nav {
     width: 100%;
     height: 10vh;
     background-color: #4B1B2F;
-    /* Faixa do menu */
     display: flex;
     justify-content: flex;
     position: fixed;
@@ -32,30 +35,31 @@ main {
     z-index: 1;
 }
 
+/* Define o estilo do menu para alinhamento dos itens e sem bullets */
 .menu nav ul {
-    /* Posição da ancoragem */
     display: flex;
     align-items: center;
     list-style: none;
     margin-right: 20px;
 }
 
+/* Espaçamento entre os itens do menu */
 .menu nav ul li {
-    /* Espaçamento da lista */
     padding: 20px;
 }
 
+/* Estilo das âncoras do menu, com cor e sem sublinhado */
 .menu nav ul li a {
     color: white;
-    /* Fontes, cores e estilos da ancoragem do menu */
     text-decoration: none;
 }
 
+/* Cor de hover das âncoras no menu */
 .menu nav ul li a:hover {
-    color: blue;
-    /* Fontes, cores e estilos da ancoragem do menu:hover */
+    color: goldenrod;
 }
 
+/* Área do usuário à direita do menu */
 .user-area {
     display: flex;
     justify-content: flex-end;
@@ -65,6 +69,7 @@ main {
     margin-right: 200px;
 }
 
+/* Foto do usuário com borda circular e centralizada */
 .user-photo {
     border-radius: 100%;
     align-items: center;
@@ -76,47 +81,62 @@ main {
     z-index: 2;
 }
 
+/* Área das opções do usuário com posição fixa à direita */
 .user-options {
     position: fixed;
     right: 50px;
     z-index: 3;
-    color:#FFF;
+    color: #FFF;
 }
 
-/*Menu Suspenso*/
-.user-menu li a{color:white;text-decoration:none;padding:5px 10px; display: block;}
-.user-menu li a:hover{
-	background:#333;
-	color:white;
-	-moz-box-shadow: 0 3px 10px 0 #ccc;
-	-webkit-box-shadow: 0 3px 10px 0 #ccc;
-	text-shadow:0px 0px 5px #fff;
-}
-.user-menu li ul{
-	position:absolute;
-	top:25px;
-	left:0;
-	background-color:black;
-	display: none;
-}
-.user-menu li:hover ul, .user-menu li.over ul{display:block;}
-.user-menu li ul li{
-	border:1px solid #c0c0c0;
-	display:block;
-	width:150px;
+/* Estilo dos links no menu suspenso */
+.user-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
 }
 
+/* Estilo ao passar o mouse sobre os intens que tem esses id em espeíficos*/
+#log-sin:hover, #sair:hover {
+    color: goldenrod;
+}
+
+/* Configuração de exibição do menu suspenso */
+.user-menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
+}
+
+/* Exibe o menu suspenso ao passar o mouse */
+.user-menu li:hover ul,
+.user-menu li.over ul {
+    display: block;
+}
+
+/* Estilo do submenu */
+.user-menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+    background-color: #4B1B2F;
+}
+
+/* Remove bullets e padding de todas as listas */
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
+/* Ajusta o padding do conteúdo principal */
 .conteudo {
     padding-top: 0px;
-
 }
 
+/* Define o fundo com uma imagem e configurações de repetição e tamanho */
 .fundo {
     background-image: url(../assets/background/Alyan.webp);
     background-repeat: no-repeat;
@@ -126,17 +146,20 @@ ul {
     padding-bottom: 50px;
 }
 
+/* Remove padding do destaque */
 .destaque {
     padding: 0;
 }
 
+/* Centraliza o carrossel horizontalmente */
 .carousel {
     width: 30%;
-    margin: 0 auto; /* Centraliza o carrossel horizontalmente */
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
+/* Estilo das imagens do carrossel */
 .carousel img {
     width: 100%;
     border-radius: 20px;
@@ -144,57 +167,62 @@ ul {
     display: block;
 }
 
+/* Grid de cards com fundo cinza, espaçamento e alinhamento */
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #D3D3D3;
-    width: 1000px;
-    margin: 0 auto; /* Centraliza o grid horizontalmente */
+    max-width: 50%;
+    margin: 0 auto;
     padding: 40px;
     border-radius: 20px;
     gap: 5px;
-    justify-items: center; /* Centraliza os cards horizontalmente dentro do grid */
-    align-items: center; /* Centraliza os cards verticalmente dentro do grid */
+    justify-items: center;
+    align-items: center;
 }
 
+/* Estilo das bordas dos itens do card */
 .item {
-    border: black solid 4px;    
+    border: black solid 4px;
 }
 
+/* Dimensões e borda dos itens no grid de cards */
 .cards .item {
     width: 300px;
     border-radius: 20px;
-    /* Tamanho e borda do item do cards */
 }
 
+/* Imagem do card com tamanho e altura definidos */
 .item .imagem-card img {
     width: 100%;
     height: 50%;
     max-height: 500px;
 }
 
+/* Título do card centralizado */
 .item .imagem-card h2 {
     text-align: center;
     margin-top: 10px;
 }
 
+/* Dimensões gerais dos produtos */
 .produtos-gerais {
     width: 100%;
     height: 100%;
 }
 
+/* Centraliza a descrição dos cards */
 .descricao-card {
     text-align: center;
 }
 
-/* cards da section produtos gerais*/
-
+/* Configurações de estilo dos cards na seção de produtos gerais */
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: #D3D3D3; /* Fundo cinza claro */
+    background-color: #D3D3D3;
     padding: 40px;
-    width: 1000px;
+    max-width: 60%;
     margin: 0 auto;
     border-radius: 20px;
     gap: 5px;
@@ -204,6 +232,7 @@ ul {
     margin-bottom: 50px;
 }
 
+/* Estilo dos itens do card */
 .card-item {
     border: black solid 4px;
     width: 200px;
@@ -211,54 +240,67 @@ ul {
     overflow: hidden;
 }
 
+/* Ajuste da imagem no card */
 .card-image img {
     width: 100%;
     height: auto;
     max-height: 200px;
 }
 
+/* Centraliza o título do card */
 .card-title {
     text-align: center;
     margin-top: 10px;
 }
 
+/* Fundo e largura do rodapé */
 .rodape {
     background-color: #350017;
     width: 100%;
 }
 
+/* Estilo do footer com cor, alinhamento e sem rolagem extra */
 footer {
-            background-color:#490021 ;
-            color: white;
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        footer div {
-            text-align: center;
-        }
-        footer h3 {
-            margin-bottom: 10px;
-        }
-        footer a {
-            color: #61dafb;
-            text-decoration: none;
-            display: block;
-            margin: 5px 0;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
+    background-color: #490021;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 
-/* Responsividade para telas pequenas */
+/* Centraliza texto dentro de cada seção do footer */
+footer div {
+    text-align: center;
+}
+
+/* Estilo dos cabeçalhos no footer */
+footer h3 {
+    margin-bottom: 10px;
+}
+
+/* Links do footer com cor e efeito ao passar o mouse */
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes de responsividade para telas menores */
 @media (max-width: 768px) {
     .cards {
         grid-template-columns: 1fr;
-        /* Altera para uma coluna em telas menores */
     }
+
     .card-container {
         grid-template-columns: 1fr;
     }
