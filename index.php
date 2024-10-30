@@ -71,7 +71,61 @@
         </div>
 
         <section class="produtos-gerais">
-            <div class="card-container">
+            <div class="card-container" id="tinto">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Preto">
+                    </div>
+                    <h2 class="card-title">Preto</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vermelho">
+                    </div>
+                    <h2 class="card-title">Vermelho</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Azul">
+                    </div>
+                    <h2 class="card-title">Azul</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Azul">
+                    </div>
+                    <h2 class="card-title">Azul</h2>
+                </div>
+            </div>
+
+            <div class="card-container" id="Rose">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Preto">
+                    </div>
+                    <h2 class="card-title">Preto</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Vermelho">
+                    </div>
+                    <h2 class="card-title">Vermelho</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Azul">
+                    </div>
+                    <h2 class="card-title">Azul</h2>
+                </div>
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="assets/01.png" alt="Azul">
+                    </div>
+                    <h2 class="card-title">Azul</h2>
+                </div>
+            </div>
+
+            <div class="card-container" id="Branco">
                 <div class="card-item">
                     <div class="card-image">
                         <img src="assets/01.png" alt="Preto">
