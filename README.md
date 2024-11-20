@@ -6,6 +6,8 @@ Desenvolvendo um site de vinhos com html, css, php e javascript
 
 -Buscar fonte cursiva para o titulo da categoria de vinhos.
 
+-ADICIONAR ESPAÇAMENTO NO TITULO DA PRIMEIRA CATEGORIA
+
 -Página de registro/login botão de destrui sessãoPHP
 
 -colocar a foto de cada produto em sua categoria
