@@ -203,6 +203,11 @@ ul {
     background-color: #FFFACD;
 }
 
+/* Corrige o espaçamento do titulo da primeira categoria que fica colado na imagem de destaque*/
+#padding-corretor {
+    padding-top: 50px;
+}
+
 /* Estilo das bordas dos itens do card */
 .item {
     border: black solid 4px;
