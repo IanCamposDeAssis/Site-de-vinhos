@@ -8,4 +8,10 @@ Desenvolvendo um site de vinhos com html, css, php e javascript
 
 -realizar teste de UX
 
--
+-refazer menu de navegação
+
+-fazer páginas de produtos
+
+-fazer aba login / registro
+
+-index logado*
