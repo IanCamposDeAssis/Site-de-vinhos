@@ -210,7 +210,8 @@ ul {
 
 /* Estilo das bordas dos itens do card */
 .item {
-    border: black solid 4px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #fff;
 }
 
 /* Dimensões e borda dos itens no grid de cards */
@@ -262,7 +263,8 @@ ul {
 
 /* Estilo dos itens do card */
 .card-item {
-    border: black solid 4px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #fff;
     width: 200px;
     border-radius: 20px;
     overflow: hidden;
