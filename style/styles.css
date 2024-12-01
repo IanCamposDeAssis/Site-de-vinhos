@@ -33,10 +33,21 @@ h2 {
     height: 10vh;
     background-color: #890f25;
     display: flex;
-    justify-content: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     z-index: 1;
+}
+
+.menu nav h1 {
+    color: #fff;
+    display: flex;
+    position:absolute;
+    left: 40px;
+    top: 5px;
+    align-items: center;
+    justify-content: flex;
+    list-style: none;
 }
 
 /* Define o estilo do menu para alinhamento dos itens e sem bullets */
@@ -380,4 +391,65 @@ footer a:hover {
     .card-container {
         grid-template-columns: 1fr;
     }
+}
+
+/* Estilo do fundo escuro com desfoque */
+.popup-overlay {
+    display: none;
+    /* Invisível inicialmente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fundo semi-transparente */
+    backdrop-filter: blur(5px);
+    /* Desfoque do fundo */
+    z-index: 1000;
+}
+
+/* Estilo do popup */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+}
+
+/* Botão de fechar */
+.popup #closePopup {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background: #890f25;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup #closePopup:hover {
+    background: darkred;
+}
+
+/* Outro botão */
+.popup #denyedPopup {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup #denyedPopup:hover {
+    text-decoration: underline;
 }
