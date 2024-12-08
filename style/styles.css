@@ -42,7 +42,7 @@ h2 {
 .menu nav h1 {
     color: #fff;
     display: flex;
-    position:absolute;
+    position: absolute;
     left: 40px;
     top: 5px;
     align-items: center;
@@ -435,7 +435,7 @@ footer a:hover {
 }
 
 .popup #closePopup:hover {
-    background: darkred;
+    background: 890f25;
 }
 
 /* Outro botão */
@@ -452,4 +452,95 @@ footer a:hover {
 
 .popup #denyedPopup:hover {
     text-decoration: underline;
+}
+
+.texto {
+    padding: 100px;
+}
+
+#sobre {
+    background-image: url(../assets/background/inside.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#feedback {
+    background-image: url(../assets/background/2a520311ecaf909a39f46779190622a2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#FAQ {
+    background-image: url(../assets/background/wine-background-uk1erk0z2ou1t1w9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa--texto {
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 40px;
+    width: 100vh;
+}
+
+.caixa--form {
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 40px;
+    width: 70vh;
+}
+
+.caixa--texto h1, .caixa--form h1 {
+    font-size: 40px;
+}
+
+.caixa--texto p, .caixa--form p {
+    font-size: 20px;
+    justify-content: left;
+}
+
+.link-remove {
+    color: white;
+    text-decoration: none;
+}
+
+input,
+textarea,
+button {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 70%;
+}
+
+textarea {
+    height: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background: #890f25;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
 }
